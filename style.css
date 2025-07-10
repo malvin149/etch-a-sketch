@@ -41,6 +41,10 @@ button:hover {
     box-sizing: border-box;
 }
 
+.grid-square {
+    background-color: #eee;
+}
+
 .colored {
-    background-color: rgb(0, 0, 0);
+    opacity: 0;
 }
