@@ -40,3 +40,7 @@ button:hover {
 .square {
     box-sizing: border-box;
 }
+
+.colored {
+    background-color: rgb(0, 0, 0);
+}
