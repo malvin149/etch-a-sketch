@@ -4,7 +4,7 @@ A browser-based drawing application inspired by the classic Etch-A-Sketch and pi
 
 ## Live Demo
 
-
+https://malvin149.github.io/etch-a-sketch/
 
 ## Features 
 
