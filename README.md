@@ -8,20 +8,20 @@ A browser-based drawing application inspired by the classic Etch-A-Sketch and pi
 
 ## Features 
 
- • Dynamic Grid Generation:
+ ** Dynamic Grid Generation:
     - Create a grid of squares entirely using JavaScript .
- • Interactive Drawing:
+ ** Interactive Drawing:
     - Squares change color when the mouse hovers over them, leaving a persistent trail.
     - Progressive darkening effect, making squares fully black after 10 interactions.
- • Customizable Grid Size:
+ ** Customizable Grid Size:
     - A "New Grid" button allows the user to specify a new grid dimension (e.g., 64x64) up to 100x100.
- • Responsive Grid:
+ ** Responsive Grid:
     - The grid maintaines its total size, with individual squares adjusting to fit the new dimensions.
 
 ## Technologies Used
- • HTML5: For the basic page structure
- • CSS3: For styling and creating the grid layout using (Flexbox).
- • JavaScript (ES6+): For DOM manipulation, grid generation, event handling, and interactive drawing logic.
+ ** HTML5: For the basic page structure
+ ** CSS3: For styling and creating the grid layout using (Flexbox).
+ ** JavaScript (ES6+): For DOM manipulation, grid generation, event handling, and interactive drawing logic.
 
 ## How to Play
  1. Move your mouse over the grid squares to draw.
