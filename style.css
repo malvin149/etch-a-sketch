@@ -8,26 +8,44 @@ body {
     background-color: #f0f0f0;
     padding: 20px;
     box-sizing: border-box;
+    border-radius: 8px;
 }
 
 .header {
     margin-bottom: 20px;
     text-align: center;
+    padding: 15px 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 2.5em;
 }
 
 button {
-    padding: 10px 20px;
+    padding: 12px 25px;
     font-size: 1.1em;
-    background-color: #4caf50;
+    background-color: #007bff;
     color: white;
     border: none;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
 }
 
 #gridContainer {
@@ -35,16 +53,22 @@ button:hover {
     flex-wrap: wrap;
     width: 960px;
     height: 960px;
-}
-
-.square {
+    border: 2px solid #555;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    overflow: hidden;
     box-sizing: border-box;
 }
 
 .grid-square {
-    background-color: #eee;
+    box-sizing: border-box;
+    background-color: #e0e0e0;
+    opacity: 1;
+    transition: background-color 0.1s ease, opacity 0.1s ease;
+    border-radius: 2px;
 }
 
-.colored {
+/* .colored {
     opacity: 0;
-}
+} */
